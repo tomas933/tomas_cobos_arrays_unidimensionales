@@ -34,8 +34,8 @@ def validar_cadena(cadena: str) -> str:
     if cadena != "":
         solo_letras = True
 
-        for i in range(len(cadena)):
-            if es_letra(cadena[i]) == False:
+        for cadena_2 in range(len(cadena)):
+            if es_letra(cadena[cadena_2]) == False:
                 solo_letras = False
 
         if solo_letras == True:
